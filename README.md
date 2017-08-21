@@ -1,4 +1,0 @@
-# newrepo
-dhcj
-\gjm
-hilk/
