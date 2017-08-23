@@ -1,0 +1,11 @@
+make folder in media 
+mount image via dev to media 
+install tigervnc.rpm
+VNCSERVERS="display_number:user"
+vi /etc/sysconfig/vncservers
+---VNCSERVERS="3:joe"
+---VNCSERVERARGS[1]="-geometry 800x600 -nolisten tcp -localhost"
+vncpasswd
+vncserver :display_number
+
+
